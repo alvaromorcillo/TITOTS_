@@ -1,0 +1,457 @@
+@font-face {
+  font-family: 'MiFuente';
+  src: url('../Tipografias/porter-sans-inline-block.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: rgba(147, 242, 176, 1);
+    padding: 10px 20px;
+    padding-top: 20px;
+}
+
+.headerprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.logo{
+    font-size: 45px;
+    font-family: "MiFuente";
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    z-index: auto;
+
+}
+
+
+
+
+
+
+.busqueda{
+    display: flex;
+    gap: 1px;
+}
+.busqueda input{
+    padding: 8px;
+    background-color: rgb(105, 172, 125) ;
+    border-radius: 40px;
+    border: solid 1px green;
+    width: 400px;
+}
+.busqueda button{
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: none;
+    background: #000;
+}
+.busqueda img{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+.perfil img{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.perfil img{
+    height: 50px;
+    width: 50px;
+}
+
+.perfil button{
+    padding: 6px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+.carrito{
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+.carrito img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+#menu img{
+    height: 50px;
+    width: 50px;
+}
+
+.navegador {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(146, 191, 160, 1);
+  padding: 30px;
+  font-weight: bold;
+}
+
+.navegador a{
+    padding: 40px;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #000;
+}
+nav a{
+    color: #0a361c;
+}
+nav a:hover {
+    color: white;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 40px;
+    background-image: url(../images/fondo_menu.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+aside{
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+.carlos{
+    background-image: url(../images/estampado_capivaras.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 30vw;
+    height: 200px;
+    color: rgb(78, 44, 0);
+    font-size: 35px;
+}
+.shellder{
+    background-image: url(../images/shellderfondo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 30vw;
+    height: 200px;
+    
+    font-size: 35px;
+}
+.totoro{
+    background-image: url(../images/totorofondo.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 30vw;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.pochachu{
+    background-image: url(../images/eletrico.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 30vw;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.carlos h2{
+    padding: 10px;
+}
+
+.carlos img{
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+.carlos img:hover{
+    transform: translateY(-8px);
+}
+
+.pochachu h2{
+    padding: 10px;
+}
+
+.pochachu img{
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+.pochachu img:hover{
+    transform: translateY(-8px);
+}
+
+.shellder h2{
+    padding: 10px;
+    color: rgb(251, 255, 0);
+}
+
+.shellder img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.shellder img:hover{
+    transform: translateY(-8px);
+}
+
+.totoro h2{
+    padding: 10px;
+}
+
+.totoro img{
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+.totoro img:hover{
+    transform: translateY(-8px);
+}
+aside h2{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65vw;
+}
+
+
+
+
+#primero{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7b6d2;
+    padding: 20px;
+    border-radius: 20px;
+}
+#primero img{
+    width: 200px;
+}
+
+#primero h4{
+    text-align: center;
+    border-radius: 10px;
+    background: #c5b3ff;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+
+
+
+#oferta{
+    background-image: url(../images/Fondo_sanvalentin.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#oferta article{
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+#oferta img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+#oferta a{
+    margin-top: 10px;
+    background: #ff69b4;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #126434;
+}
+
+
+
+.datos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+}
+
+
+
+#temporal article{
+    background-color: rgb(255, 230, 128);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#temporal img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+
+
+
+
+#delocos{
+    background-color: #0000004f;
+    border-radius: 15px;
+    padding: 16px 30px;
+}
+
+
+
+
+#comunidad article{
+    background: #b8f2b5;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#comunidad img{
+    width: 80px;
+    margin: 10px;
+}
+#comunidad div{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#cajas article{
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+#cajas h2{
+    color: #000;
+}
+#cajas img{
+    width: 120px;
+    margin: 10px;
+}
+
+
+
+
+
+#varios{
+    display: flex;
+    justify-content: space-around;
+    background: #c6f0ff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#varios h5{
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: #507bca;
+    padding: 10px 40px;
+    font-size: 25px;
+}
+h5{
+    color: rgb(255, 255, 255);
+}
+#varios img{
+    height: 200px;
+}
+
+
+
+article img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+
+button:hover{
+    opacity: 0.8;
+}

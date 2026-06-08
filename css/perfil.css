@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-image: url(../images/fondoo_perfil.jpeg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil{
+    width: 90%;
+    max-width: 520px;
+    background-color: #f7faff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.fondoperfil{
+    background-image: url(../images/VALENCIA.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    height: 150px;
+}
+
+.fotoperfil{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 5px solid #2f80ed;
+    margin: -60px 5px 20px;
+    object-fit: cover;
+}
+
+.info{
+    padding: 20px 30px 30px;
+}
+
+h2{
+    margin: 10px 0 5px;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.trabajo{
+    margin: 0;
+    color: #3b3b3b;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.bio{
+    margin: 20px 0;
+    color: #444;
+    text-align: center;
+}
+
+
+
+
+.extra{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.extra div{
+    flex: 1;
+    padding: 18px 10px;
+    background-color: #e1ecfd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.extra h3{
+    font-size: 25px;
+}
+
+.extra h4{
+    font-size: 15px;
+    color: #666;
+}
+
+
+
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #2f80ed;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background: #1f6fd1;
+}
+
+
+
+#volver{
+    padding: 10px 20px;
+    align-items: end;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 55px;
+    height: 55px;
+    background-color: #022992ee;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+    transition: transform 0.25s ease;
+    color: rgb(255, 255, 255);
+}
+#volver:hover{
+    transform: translate(-10px);
+    background-color: #031c61ee;
+}

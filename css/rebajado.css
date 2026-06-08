@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(rgba(255, 200, 120, 0.7), rgba(255, 200, 120, 0.7)); 
+    background-image: url(../images/rebajas.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+nav{
+    background-color: #b98218;
+    display: flex;
+    gap: 30px;
+    padding: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+nav a:hover {
+    color: #fad44d;
+}
+
+
+
+
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px 80px;
+}
+main h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(48, 47, 47);
+    font-size: 3rem;
+    margin: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+#titulo{
+    text-align: center;
+    align-items: center;
+    padding: 45px 20px 25px;
+}
+
+#titulo h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 30px 0;
+    color: rgb(255, 255, 255);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+article{
+    background-color: #e6cf40;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 15rem;
+    height: 20rem;
+    min-height: 320px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+article img{
+    width: 100%;
+    object-fit: contain;
+    height: 170px;
+    background-color: #fff8d6;
+    border-radius: 10px;
+    padding: 10px;
+}
+article h3{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0 12px;
+    font-size: 20px;
+    color: #303030;
+}
+article h4{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #b98218;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 1rem;
+}
+article:hover{
+    background-color: #d8ba32; 
+    transform: translateY(-8px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+#volver{
+    background: #be902d;
+}
+#volver:hover{
+    background: #8a6921;
+}
+
+@media (min-width: 500px) {
+}
+@media (max-width: 992px){
+
+nav{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+
+nav a{
+    font-size: 14px;
+}
+
+#titulo h2{
+    font-size: 38px;
+}
+
+main{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 40px;
+    gap: 20px;
+}
+
+article{
+    width: 14rem;
+    height: auto;
+}
+
+article img{
+    height: 160px;
+}
+
+article h3{
+    font-size: 18px;
+}
+
+article h4{
+    font-size: 18px;
+}
+}
+
+@media(max-width: 480px){
+
+#titulo h2{
+    font-size: 26px;
+}
+
+nav{
+    padding: 12px;
+}
+
+nav a{
+    font-size: 13px;
+}
+
+article{
+    padding: 15px;
+}
+
+article img{
+    height: 150px;
+}
+
+article h3{
+    font-size: 17px;
+}
+
+article h4{
+    font-size: 16px;
+}
+
+main{
+    padding: 15px;
+}
+}

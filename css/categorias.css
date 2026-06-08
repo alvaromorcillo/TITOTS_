@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, #a52b50, #c72f5d);
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #ce4a72;
+    width: 100%;
+    height: 70px;
+}
+nav a:hover {
+    color: #ffb8cd;
+}
+
+
+
+h2{
+    text-align: center;
+    margin: 30px 0;
+    margin-top: 30px;
+    font-size: 4rem;
+}
+
+.titulo h2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+main{
+    height: 90vh;
+    gap: 25px;
+    padding: 60px 20px;
+    margin: 0;
+}
+
+
+
+#categorias{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 4vh;
+}
+#categorias article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+article{
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+article img{
+    height: 5rem;
+    padding: 0 20px;
+    width: 35%;
+    object-fit: contain;
+}
+article h3{
+    margin: 10px 0;
+    font-size: 50px;
+    color: white;
+    width: 65%;
+}
+
+#volver:hover{
+    background: #491424;
+}
+
+
+
+
+.accion:hover{
+    background-color: #aa621f;
+    transform: translateY(-8px);
+}
+.accion{ 
+    background: #e6872e;
+}
+
+.adorables:hover{
+    background: #c42e79;
+    transform: translateY(-8px);
+}
+.adorables{ 
+    background: #e8a0c5; 
+}
+
+.luminosos{ 
+    background: #e8c828; 
+}
+.luminosos:hover{ 
+    background: #ad951c;
+    transform: translateY(-8px);
+}
+
+.peluches{ 
+    background: #a434d8; 
+}
+.peluches:hover{ 
+    background: #6d1c92;
+    transform: translateY(-8px); 
+}
+
+.anime{ 
+    background: #2fd38b; 
+}
+.anime:hover{ 
+    background: #198f5c; 
+    transform: translateY(-8px);
+}
+
+.originales{ 
+    background: #3ac8e8; 
+}
+.originales:hover{ 
+    background: #1d8197; 
+    transform: translateY(-8px);
+}
+
+.famosos{ 
+    background: #e53030; 
+}
+.famosos:hover{ 
+    background: #a82121;
+    transform: translateY(-8px);
+}
+
+.aromaticos{ 
+    background: #e23b90; 
+}
+.aromaticos:hover{ 
+    background: #9c2362; 
+    transform: translateY(-8px);
+}
+
+.cajas{ 
+    background: #8b5a2b; 
+}
+.cajas:hover{ 
+    background: #553416; 
+    transform: translateY(-8px);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    #categorias {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    article h3 {
+        font-size: 22px;
+    }
+
+    article img {
+        height: 3rem;
+        padding: 0 5px;
+    }
+    #volver:hover{
+        background: #491424;
+    }
+    nav {
+        
+        height: auto; 
+        padding: 15px 0; 
+        justify-content: center;
+        gap: 15px; 
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+
+
+
+.accion:hover{
+    background-color: #aa621f;
+    transform: translateY(-8px);
+}
+.accion{ 
+    background: #e6872e;
+}
+
+.adorables:hover{
+    background: #c42e79;
+    transform: translateY(-8px);
+}
+.adorables{ 
+    background: #e8a0c5; 
+}
+
+.luminosos{ 
+    background: #e8c828; 
+}
+.luminosos:hover{ 
+    background: #ad951c;
+    transform: translateY(-8px);
+}
+
+.peluches{ 
+    background: #a434d8; 
+}
+.peluches:hover{ 
+    background: #6d1c92;
+    transform: translateY(-8px); 
+}
+
+.anime{ 
+    background: #2fd38b; 
+}
+.anime:hover{ 
+    background: #198f5c; 
+    transform: translateY(-8px);
+}
+
+.originales{ 
+    background: #3ac8e8; 
+}
+.originales:hover{ 
+    background: #1d8197; 
+    transform: translateY(-8px);
+}
+
+.famosos{ 
+    background: #e53030; 
+}
+.famosos:hover{ 
+    background: #a82121;
+    transform: translateY(-8px);
+}
+
+.aromaticos{ 
+    background: #e23b90; 
+}
+.aromaticos:hover{ 
+    background: #9c2362; 
+    transform: translateY(-8px);
+}
+
+.cajas{ 
+    background: #8b5a2b; 
+}
+.cajas:hover{ 
+    background: #553416; 
+    transform: translateY(-8px);
+}
+}

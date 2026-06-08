@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#f73b3bec);
+    color: white;
+    background-image: url(../images/lomasvendido.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav{
+    background-color: #e24848;
+}
+nav a{
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffa2a2;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+
+
+main{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px 80px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+article{
+    background-color: #e08282;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 15rem;
+    height: 20rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+article img{
+    width: 100%;
+    height: 150px;
+    background-color: #ddd; 
+    border-radius: 8px;
+    object-fit: contain;
+}
+article h3{
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    color: rgb(129, 4, 4);
+    flex-direction: column;
+}
+article h4{
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+article:hover{
+    background-color: #d16767;  
+    transform: translateY(-8px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+    transition: transform 0.25s ease;
+}
+
+
+
+
+#volver{
+    background: #e90b0bee;
+}
+#volver:hover{
+    background: #a00707ee;
+}
+
+
+@media (max-width: 992px){
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+}
+
+nav a{
+    font-size: 14px;
+}
+
+main{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+article{
+    width: 14rem;
+    height: auto;
+}
+
+article img{
+    height: 140px;
+}
+
+h2{
+    font-size: 32px;
+}
+}
+
+
+@media(max-width: 600px){
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+nav a{
+    font-size: 16px;
+    color: white;
+}
+
+main{
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 20px;
+}
+
+article{
+    width: 90%;
+    height: auto;
+}
+
+article img{
+    height: 180px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+#volver{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    color: white;
+ }
+}
